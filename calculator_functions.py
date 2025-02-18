@@ -3,21 +3,21 @@ def add(a, b):
     Add two numbers and return the result.
     """
     result = a + b
-    return f"{a} + {b} = {result}"
+    return result
 
 def subtract(a, b):
     """
     Subtract the second number from the first and return the result.
     """
     result = a - b
-    return f"{a} - {b} = {result}"
+    return result
 
 def multiply(a, b):
     """
     Multiply two numbers and return the result.
     """
     result = a * b
-    return f"{a} * {b} = {result}"
+    return result
 
 def divide(a, b):
     """
@@ -28,7 +28,7 @@ def divide(a, b):
         return "Error: Division by zero"
     else:
         result = a / b
-        return f"{a} / {b} = {result}"
+        return result
 
 def sqrt(a):
     """
@@ -39,7 +39,7 @@ def sqrt(a):
         return "Error: Negative Input"
     else:
         result = a ** 0.5
-        return f"{a} ** 2 = {result}"
+        return result
 
 def modulus(a, b):
     """
@@ -50,11 +50,11 @@ def modulus(a, b):
         return "Error: Division by zero"
     else:
         result = a % b
-        return f"{a} % {b} = {result}"
+        return result
 
 def exponent(a, b):
     """
     Return the result of raising the first number to the power of the second.
     """
     result = a ** b
-    return f"{a} ** {b} = {result}"
+    return result
