@@ -1,3 +1,6 @@
+import math
+
+
 def add(a, b):
     """
     Add two numbers and return the result.
@@ -31,9 +34,10 @@ def sqrt(a):
     if a < 0:
         return "Error: Negative input"
     
-    for i in range(a + 1):
-        if i * i == a:
-            return i
+    # for i in range(a + 1):
+    #     if i * i == a:
+    #         return i
+    return math.sqrt(a)
     
 
 def modulus(a, b):
