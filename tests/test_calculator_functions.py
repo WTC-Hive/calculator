@@ -1,4 +1,4 @@
-import pytest
+import calculator_functions
 from calculator_functions import add, subtract, multiply, divide, sqrt, modulus, exponent
 
 def test_add():
